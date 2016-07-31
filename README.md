@@ -1,3 +1,7 @@
+git clone https://github.com/idjuga/testObg.git
+php -r "readfile('https://getcomposer.org/installer');" | php
+php composer.phar install
+
 Необхідні міграції:
 yii migrate
 yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
